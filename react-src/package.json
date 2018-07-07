@@ -1,0 +1,23 @@
+{
+    "name": "celestial",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "@devloco/react-scripts-wptheme": "1.0.2",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "react-router-dom": "^4.2.2"
+    },
+    "scripts": {
+        "crabuild": "react-scripts build",
+        "craeject": "react-scripts eject",
+        "crastart": "react-scripts start",
+        "cratest": "react-scripts test --env=jsdom",
+        "build": "wptheme-scripts build",
+        "start": "wptheme-scripts start",
+        "wpbuild": "wptheme-scripts wpbuild",
+        "wpstart": "wptheme-scripts wpstart"
+    },
+    "homepage": "/wordpress/wp-content/themes/celestial",
+    "browserLaunchTo": "http://localhost/wordpress"
+}
