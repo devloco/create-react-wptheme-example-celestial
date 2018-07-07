@@ -1,11 +1,4 @@
-//import React from "react";
-// import ReactDOM from "react-dom";
-// import './index.css';
-// import App from './App';
-// import registerServiceWorker from './registerServiceWorker';
-
-// ReactDOM.render(<App />, document.getElementById('root'));
-// registerServiceWorker();
+import registerServiceWorker from "./registerServiceWorker";
 
 import React from "react";
 import { render } from "react-dom";
@@ -18,10 +11,8 @@ import Post from "./post";
 import Products from "./products";
 import Product from "./product";
 import NotFound from "./not-found";
-//import LoadingIcon from "./dist/images/loading-icon.gif";
-//import Placeholder from "./placeholder.jpg";
 
-// Load the Sass file
+// Load the CSS file
 require("./dist/style.css");
 
 const CelestialSettings = window.CelestialSettings;
@@ -50,3 +41,5 @@ const routes = (
 );
 
 render(routes, document.getElementById("page"));
+
+registerServiceWorker();
