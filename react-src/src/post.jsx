@@ -2,12 +2,13 @@ import React from "react";
 import NotFound from "./not-found";
 
 const CelestialSettings = window.CelestialSettings;
+const initialState = "initial-state";
 
 class Post extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            post: {}
+            post: initialState
         };
     }
 
@@ -51,6 +52,11 @@ class Post extends React.Component {
 
     render() {
         console.log("post.jsx this.state.post", this.state.post);
+        if (this.state.post === initialState) {
+            // initial state is null. After fetch state is undefined.
+            return null;
+        }
+
         return <div className="container post-entry">{this.state.post && this.state.post.title ? this.renderPosts() : this.renderEmpty()}</div>;
     }
 }
