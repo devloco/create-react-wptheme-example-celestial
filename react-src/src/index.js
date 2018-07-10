@@ -1,5 +1,3 @@
-import registerServiceWorker from "./registerServiceWorker";
-
 import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -11,6 +9,8 @@ import Post from "./post";
 import Products from "./products";
 import Product from "./product";
 import NotFound from "./not-found";
+
+import registerServiceWorker from "./registerServiceWorker";
 
 // Load the CSS file
 require("./dist/style.css");
