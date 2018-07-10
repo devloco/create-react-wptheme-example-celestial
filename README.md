@@ -8,6 +8,15 @@ git clone https://github.com/devloco/create-react-wptheme-example-celestial.git
 rename create-react-wptheme-example-celestial celestial
 cd celestial
 cd react-src
+
+Open package.json in your favorite text editor.
+Check the value for "homepage" -- should be relative **URL PATH (i.e. starting from server root)** to your "celestial" theme folder
+Check value for "browserLaunchTo" -- should be the full URL to your WordPress server root... the WP site running your celestial theme.
+
+Go to your WordPress Admin area and set "Celestial" as your active theme.
+
+Back at your command prompt, type:
+
 npm start
 ```
 
