@@ -12,11 +12,13 @@ For the theme to work correctly, we have to set the following permalinks within:
     -   Dashboard → Settings → Permalinks:
 
 Then
-    -   Under Common Settings → Custom Structure: http://localhost/celestial/posts/%postname%/
+    -   Under Common Settings → Custom Structure: /posts/%postname%/
     -   Under Product permalinks → Custom base: /products/
 
 If you don’t set the permalinks as above, the theme may not function as desired.
 ```
+
+Then to get the Celestial theme installed from Github:
 
 ```sh
 cd /your/wordpress/themes/folder
