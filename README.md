@@ -8,8 +8,10 @@ Quoting the tutorial:
 ```cmd
 Permalinks
 
-For the theme to work correctly, we have to set the following permalinks within Dashboard → Settings → Permalinks:
+For the theme to work correctly, we have to set the following permalinks within:
+    -   Dashboard → Settings → Permalinks:
 
+Then
     -   Under Common Settings → Custom Structure: http://localhost/celestial/posts/%postname%/
     -   Under Product permalinks → Custom base: /products/
 
