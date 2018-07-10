@@ -13,6 +13,8 @@ For the theme to work correctly, we have to set the following permalinks within:
 
 Then
     -   Under Common Settings → Custom Structure: /posts/%postname%/
+
+And if you want to do the wooCommerce part of the tutorial:
     -   Under Product permalinks → Custom base: /products/
 
 If you don’t set the permalinks as above, the theme may not function as desired.
