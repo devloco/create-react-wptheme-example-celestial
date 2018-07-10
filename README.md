@@ -2,6 +2,20 @@ This project was bootstrapped with [Create React WP Theme](https://github.com/de
 
 To use:
 
+First off, the tutorial author has you make some changes to your WordPress settings.
+Quoting the tutorial:
+
+```cmd
+Permalinks
+
+For the theme to work correctly, we have to set the following permalinks within Dashboard → Settings → Permalinks:
+
+    -   Under Common Settings → Custom Structure: http://localhost/celestial/posts/%postname%/
+    -   Under Product permalinks → Custom base: /products/
+
+If you don’t set the permalinks as above, the theme may not function as desired.
+```
+
 ```sh
 cd /your/wordpress/themes/folder
 git clone https://github.com/devloco/create-react-wptheme-example-celestial.git
