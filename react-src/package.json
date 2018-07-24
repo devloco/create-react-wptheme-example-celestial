@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "private": true,
     "dependencies": {
-        "@devloco/react-scripts-wptheme": "1.1.0",
+        "@devloco/react-scripts-wptheme": "1.2.2",
         "react": "^16.4.1",
         "react-dom": "^16.4.1",
         "react-router-dom": "^4.2.2"
