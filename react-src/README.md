@@ -43,7 +43,7 @@ Go to your WordPress Admin area and set "Celestial" as your active theme.
 
 Back at your command prompt, type:
 
-npm start
+npm run start
 ```
 
 The original Github repo for the Celestial theme is located here: [Celestial WordPress theme](https://github.com/m-muhsin/celestial)
