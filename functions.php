@@ -5,6 +5,21 @@
  * @since Celestial 1.0
  */
 
+
+require __DIR__ . '/vendor/autoload.php';
+use Automattic\WooCommerce\Client;
+
+$woocommerce = new Client(
+    'http://localhost/wordpress',
+    'ck_b66c7465b74ff0616f64451439b3ae44364700e4',
+    'cs_e184fed6c116e7933130e90cee2795e08e9d71b5',
+    [
+        'wp_api' => true,
+        'version' => 'wc/v2',
+    ]
+);
+
+
 function celestial_scripts() {
 
 	// Load our main stylesheet.
@@ -32,8 +47,8 @@ function celestial_scripts() {
 		),
 		'woo' => array(
 			'url' => esc_url_raw( 'http://localhost/wordpress/wp-json/wc/v2/' ),
-			'consumer_key' => 'ck_803bcdcaa73d3a406a0f107041b07ef6217e05b9',
-			'consumer_secret' => 'cs_c50ba3a77cc88c3bf46ebac49bbc96de3a543f03'
+			'consumer_key' => 'ck_b66c7465b74ff0616f64451439b3ae44364700e4',
+			'consumer_secret' => 'cs_e184fed6c116e7933130e90cee2795e08e9d71b5'
 		),
 	) ) ) );
 }
