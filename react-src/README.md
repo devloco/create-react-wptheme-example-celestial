@@ -43,6 +43,7 @@ Go to your WordPress Admin area and set "Celestial" as your active theme.
 
 Back at your command prompt, type:
 
+npm install
 npm run start
 ```
 
