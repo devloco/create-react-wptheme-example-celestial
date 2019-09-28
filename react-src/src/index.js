@@ -10,8 +10,6 @@ import Products from "./products";
 import Product from "./product";
 import NotFound from "./not-found";
 
-import registerServiceWorker from "./registerServiceWorker";
-
 // Load the CSS file
 require("./dist/style.css");
 
@@ -41,5 +39,3 @@ const routes = (
 );
 
 render(routes, document.getElementById("page"));
-
-registerServiceWorker();
