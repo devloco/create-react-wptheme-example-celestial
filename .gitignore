@@ -3,6 +3,7 @@
 # non-source files
 /dist/**
 /static/**
+/!DO_NOT*
 
 # dependencies
 /node_modules

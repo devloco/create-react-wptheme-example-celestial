@@ -14,6 +14,7 @@ import NotFound from "./not-found";
 require("./dist/style.css");
 
 const CelestialSettings = window.CelestialSettings;
+// console.log("CelestialSettings", CelestialSettings);
 
 const App = () => (
     <div id="page-inner">
