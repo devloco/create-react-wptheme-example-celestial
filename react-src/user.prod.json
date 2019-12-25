@@ -1,4 +1,4 @@
 {
-    "ensureTrailingSlash": true,
+    "finalBuildPath": "..",
     "homepage": "/wordpress/wp-content/themes/celestial"
 }
